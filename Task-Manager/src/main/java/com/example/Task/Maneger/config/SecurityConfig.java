@@ -18,6 +18,7 @@ public class SecurityConfig {
     UserDetailsService userDetailsService;
     @Bean
     BCryptPasswordEncoder passwordEncoder()throws Exception{
+        //fswa
 return new BCryptPasswordEncoder();
     }
     @Bean
